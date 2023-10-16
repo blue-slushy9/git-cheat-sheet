@@ -15,3 +15,9 @@ git config user.name
 
 # Verify your email in Git config;
 git config user.email
+
+# Set global username, quotations are necessary;
+git config --global user.name "<username>"
+
+# Set global email, quotations are necessary;
+git config --global user.email "<email address>"
