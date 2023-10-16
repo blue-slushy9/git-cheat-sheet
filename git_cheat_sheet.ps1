@@ -9,3 +9,9 @@ git commit -m "First commit"
 git branch -M main
 git remote add origin https://github.com/blue-slushy9/<repo-name>.git
 git push -u origin main
+
+# Verify your username in Git config;
+git config user.name
+
+# Verify your email in Git config;
+git config user.email
