@@ -1,5 +1,13 @@
 # This is a Git cheat-sheet I am putting together...
 
+# Create new GitHub repo from Linux terminal;
+# Replace 'YOUR_GITHUB_USERNAME' with your GitHub username;
+# Replace 'YOUR_ACCESS_TOKEN' with your GitHub personal access token;
+# Replace 'NEW_REPO_NAME' with the name of your new repository;
+curl -u "YOUR_GITHUB_USERNAME:YOUR_ACCESS_TOKEN" https://api.github.com/user/repos -d '{"name":"NEW_REPO_NAME"}'
+
+############
+
 # Got this command from GitHub, it is used to create a repo from the terminal,
 # but I couldn't get it to work yet;
 echo "# <package-name>" >> README.md
