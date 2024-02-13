@@ -33,3 +33,6 @@ git add README.md
 git commit -m "First commit"
 git branch -M main
 git remote add origin https://github.com/blue-slushy9/<repo-name>.git
+
+
+"To check if the local repository is behind the remote origin repository, you can use the git fetch command to retrieve the latest changes from the remote repository and then compare the commit histories using git log. Alternatively, you can use the git status command after fetching to see if there are any changes to be pulled from the remote repository."
