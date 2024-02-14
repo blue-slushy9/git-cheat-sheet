@@ -24,6 +24,23 @@ git config --global user.name "<username>"
 # Set global email, quotations are necessary;
 git config --global user.email "<email address>"
 
+# Tag most recent commit, you choose the tag name;
+git tag -a <tag_name> -m "Your tag message"
+
+# List all tags on current repo;
+git tag
+
+# Roll back to a specific tag;
+git checkout <tag_name>
+
+# Show information about a specific tag, including the associated commit 
+# and tag message;
+git show <tag_name>
+
+
+# Roll back to a specific commit;
+git reset --hard <commit_hash>
+
 
 # Got this command from GitHub, it is used to create a repo from the terminal,
 # but I couldn't get it to work yet;
@@ -33,6 +50,7 @@ git add README.md
 git commit -m "First commit"
 git branch -M main
 git remote add origin https://github.com/blue-slushy9/<repo-name>.git
+
 
 
 "To check if the local repository is behind the remote origin repository, you can use the git fetch command to retrieve the latest changes from the remote repository and then compare the commit histories using git log. Alternatively, you can use the git status command after fetching to see if there are any changes to be pulled from the remote repository."
