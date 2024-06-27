@@ -30,6 +30,12 @@ git tag -a <tag_name> -m "Your tag message"
 # List all tags on current repo;
 git tag
 
+# View all branches of repo
+git branch
+
+# Create a new branch and switch to it
+git checkout -b <branch-name>
+
 # Roll back to a specific tag;
 git checkout <tag_name>
 
