@@ -42,6 +42,9 @@ git checkout <tag_name>
 # Connect your local repo to a remote repo
 git remote add <remote-name> <url-of-remote-repository>
 
+# Set tracking information for a branch
+git branch --set-upstream-to=origin/<branch>
+
 # Show information about a specific tag, including the associated commit 
 # and tag message;
 git show <tag_name>
