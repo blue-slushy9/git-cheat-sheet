@@ -39,14 +39,15 @@ git checkout -b <branch-name>
 # Roll back to a specific tag;
 git checkout <tag_name>
 
+# Connect your local repo to a remote repo
+git remote add <remote-name> <url-of-remote-repository>
+
 # Show information about a specific tag, including the associated commit 
 # and tag message;
 git show <tag_name>
 
-
 # Roll back to a specific commit;
 git reset --hard <commit_hash>
-
 
 # Got this command from GitHub, it is used to create a repo from the terminal,
 # but I couldn't get it to work yet;
